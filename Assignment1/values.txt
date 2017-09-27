@@ -1,0 +1,935 @@
+a = 99.99999999999859
+b = 3.10000000000000
+c = 3.00000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 13.99999999999997
+c = 3.00000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 14.19999999999997
+c = 3.00000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 15.59999999999996
+c = 3.00000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 15.79999999999996
+c = 3.00000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 61.10000000000060
+c = 3.00000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 61.30000000000060
+c = 3.00000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 61.90000000000061
+c = 3.00000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 62.10000000000061
+c = 3.00000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 62.70000000000062
+c = 3.00000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 62.90000000000062
+c = 3.00000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 63.50000000000063
+c = 3.00000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 63.70000000000064
+c = 3.00000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 3.20000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 3.30000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 3.70000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 3.80000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 4.20000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 4.30000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 4.70000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 4.80000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 5.20000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 6.49999999999999
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 6.89999999999999
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 6.99999999999999
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 7.39999999999999
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 7.49999999999999
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 7.89999999999999
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 7.99999999999999
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 8.39999999999999
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 8.89999999999998
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 9.69999999999998
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 10.19999999999998
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 10.59999999999998
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 10.69999999999998
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 11.09999999999998
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 11.19999999999998
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 11.59999999999997
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 12.09999999999997
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 12.89999999999997
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 13.39999999999997
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 13.79999999999997
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 13.89999999999997
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 14.29999999999997
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 14.39999999999996
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 14.79999999999996
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 15.29999999999996
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 16.09999999999996
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 16.29999999999996
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 16.89999999999997
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 17.09999999999997
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 17.69999999999998
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 17.89999999999998
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 18.49999999999999
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 18.70000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 19.30000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 19.50000000000001
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 20.10000000000002
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 20.30000000000002
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 20.90000000000003
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 21.10000000000003
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 21.70000000000004
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 21.90000000000004
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 22.50000000000005
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 22.70000000000005
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 23.30000000000006
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 23.50000000000006
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 24.10000000000007
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 24.30000000000008
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 24.90000000000008
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 25.10000000000009
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 25.70000000000010
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 25.90000000000010
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 26.50000000000011
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 26.70000000000011
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 27.30000000000012
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 27.50000000000012
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 28.10000000000013
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 28.30000000000013
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 28.60000000000014
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 28.90000000000014
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 29.10000000000014
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 29.40000000000015
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 29.70000000000015
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 29.90000000000015
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 30.20000000000016
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 30.50000000000016
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 30.70000000000017
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 31.00000000000017
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 31.30000000000017
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 31.50000000000018
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 31.80000000000018
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 32.10000000000019
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 32.30000000000019
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 32.60000000000019
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 32.90000000000020
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 33.10000000000020
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 33.40000000000020
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 33.70000000000021
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 33.90000000000021
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 34.20000000000022
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 34.50000000000022
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 34.70000000000022
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 35.00000000000023
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 35.30000000000023
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 35.50000000000023
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 35.80000000000024
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 36.10000000000024
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 36.30000000000025
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 36.60000000000025
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 36.90000000000025
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 37.10000000000026
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 37.40000000000026
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 37.70000000000027
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 37.90000000000027
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 38.20000000000027
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 38.50000000000028
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 38.70000000000028
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 39.00000000000028
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 39.30000000000029
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 39.50000000000029
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 39.80000000000030
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 40.10000000000030
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 40.30000000000030
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 40.60000000000031
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 40.90000000000031
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 41.10000000000031
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 41.40000000000032
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 41.70000000000032
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 41.90000000000033
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 42.20000000000033
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 42.50000000000033
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 42.70000000000034
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 43.00000000000034
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 43.30000000000035
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 43.50000000000035
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 43.80000000000035
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 44.10000000000036
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 44.30000000000036
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 44.60000000000036
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 44.90000000000037
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 45.10000000000037
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 45.40000000000038
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 45.70000000000038
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 45.90000000000038
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 46.20000000000039
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 46.50000000000039
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 46.70000000000039
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 47.00000000000040
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 47.30000000000040
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 47.50000000000041
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 47.80000000000041
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 48.10000000000041
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 48.30000000000042
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 48.60000000000042
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 48.90000000000042
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 49.10000000000043
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 49.40000000000043
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 49.70000000000044
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 49.90000000000044
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 50.20000000000044
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 50.50000000000045
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 50.70000000000045
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 51.00000000000045
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 51.30000000000046
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 51.50000000000046
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 51.80000000000047
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 52.10000000000047
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 52.30000000000047
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 52.60000000000048
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 52.90000000000048
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 53.10000000000048
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 53.40000000000049
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 53.70000000000049
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 53.90000000000050
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 54.20000000000050
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 54.50000000000050
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 54.70000000000051
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 55.00000000000051
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 55.30000000000052
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 55.50000000000052
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 55.80000000000052
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 56.60000000000053
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 58.20000000000056
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 59.80000000000058
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 61.40000000000060
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 63.00000000000063
+In this case a+b+c is NOT associative
+
