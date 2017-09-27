@@ -1,0 +1,4 @@
+N=262144
+Initialization time was 0.00735903 seconds.
+Elapsed time was 0.249846 seconds.
+Parallel time was 0.0420089 seconds.
