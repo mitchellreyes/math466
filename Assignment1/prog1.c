@@ -5,7 +5,7 @@ int main(){
   printf("a = %.14e\nb = %.14e\nc = %.14e\n", a, b, c);
   double r1 = (a+b) + c;
   double r2 = a + (b + c);
-
+  //hi
   if(r1 == r2){
     printf("In this case a+b+c is associative.\n");
   }
