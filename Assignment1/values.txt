@@ -1,66 +1,81 @@
 a = 99.99999999999859
-b = 3.10000000000000
-c = 3.00000000000000
+b = 7.79999999999999
+c = 1.00000000000000
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
-b = 13.99999999999997
-c = 3.00000000000000
+b = 27.70000000000013
+c = 1.00000000000000
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
-b = 14.19999999999997
-c = 3.00000000000000
+b = 27.80000000000013
+c = 1.00000000000000
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
-b = 15.59999999999996
-c = 3.00000000000000
+b = 31.00000000000017
+c = 1.00000000000000
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
-b = 15.79999999999996
-c = 3.00000000000000
+b = 31.70000000000018
+c = 1.00000000000000
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
-b = 61.10000000000060
-c = 3.00000000000000
-In this case a+b+c is NOT associative
-
-a = 99.99999999999859
-b = 61.30000000000060
-c = 3.00000000000000
-In this case a+b+c is NOT associative
-
-a = 99.99999999999859
-b = 61.90000000000061
-c = 3.00000000000000
-In this case a+b+c is NOT associative
-
-a = 99.99999999999859
-b = 62.10000000000061
-c = 3.00000000000000
-In this case a+b+c is NOT associative
-
-a = 99.99999999999859
-b = 62.70000000000062
-c = 3.00000000000000
-In this case a+b+c is NOT associative
-
-a = 99.99999999999859
-b = 62.90000000000062
-c = 3.00000000000000
+b = 31.80000000000019
+c = 1.00000000000000
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 63.50000000000063
-c = 3.00000000000000
+c = 1.00000000000000
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 63.70000000000064
-c = 3.00000000000000
+c = 1.00000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 1.20000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 1.30000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 1.70000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 1.80000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 2.20000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 2.30000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 2.70000000000000
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 2.80000000000000
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -110,12 +125,12 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 6.49999999999999
+c = 5.30000000000000
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 6.89999999999999
+c = 5.70000000000000
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -150,22 +165,22 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 8.89999999999998
+c = 8.49999999999999
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 9.69999999999998
+c = 8.89999999999999
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 9.39999999999998
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
 c = 10.19999999999998
-In this case a+b+c is NOT associative
-
-a = 99.99999999999859
-b = 99.99999999999859
-c = 10.59999999999998
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -185,7 +200,12 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 11.59999999999997
+c = 11.59999999999998
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 11.69999999999998
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -195,17 +215,12 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 12.89999999999997
+c = 12.59999999999997
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
 c = 13.39999999999997
-In this case a+b+c is NOT associative
-
-a = 99.99999999999859
-b = 99.99999999999859
-c = 13.79999999999997
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -220,12 +235,17 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 14.39999999999996
+c = 14.39999999999997
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 14.79999999999996
+c = 14.79999999999997
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 14.89999999999996
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -235,37 +255,37 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 16.09999999999996
+c = 15.79999999999996
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 16.29999999999996
+c = 16.29999999999997
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 16.89999999999997
+c = 16.39999999999997
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 17.09999999999997
+c = 17.09999999999998
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 17.69999999999998
+c = 17.19999999999998
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 17.89999999999998
+c = 17.89999999999999
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 18.49999999999999
+c = 17.99999999999999
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -275,7 +295,7 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 19.30000000000000
+c = 18.80000000000000
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -285,7 +305,7 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 20.10000000000002
+c = 19.60000000000001
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -295,7 +315,7 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 20.90000000000003
+c = 20.40000000000002
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -305,7 +325,7 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 21.70000000000004
+c = 21.20000000000003
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -315,27 +335,27 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 22.50000000000005
+c = 22.00000000000005
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 22.70000000000005
+c = 22.70000000000006
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 23.30000000000006
+c = 22.80000000000006
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 23.50000000000006
+c = 23.50000000000007
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 24.10000000000007
+c = 23.60000000000007
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -345,7 +365,7 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 24.90000000000008
+c = 24.40000000000008
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -355,7 +375,7 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 25.70000000000010
+c = 25.20000000000009
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -365,7 +385,7 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 26.50000000000011
+c = 26.00000000000010
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -375,7 +395,7 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 27.30000000000012
+c = 26.80000000000011
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -385,12 +405,22 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
+c = 27.60000000000013
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
 c = 28.10000000000013
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 28.30000000000013
+c = 28.30000000000014
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 28.40000000000014
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -405,7 +435,12 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 29.10000000000014
+c = 29.10000000000015
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 29.20000000000015
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -415,12 +450,17 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 29.70000000000015
+c = 29.70000000000016
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 29.90000000000015
+c = 29.90000000000016
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 30.00000000000016
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -430,7 +470,7 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 30.50000000000016
+c = 30.50000000000017
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -440,12 +480,17 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
+c = 30.80000000000017
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
 c = 31.00000000000017
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 31.30000000000017
+c = 31.30000000000018
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859
@@ -455,7 +500,12 @@ In this case a+b+c is NOT associative
 
 a = 99.99999999999859
 b = 99.99999999999859
-c = 31.80000000000018
+c = 31.60000000000018
+In this case a+b+c is NOT associative
+
+a = 99.99999999999859
+b = 99.99999999999859
+c = 31.80000000000019
 In this case a+b+c is NOT associative
 
 a = 99.99999999999859

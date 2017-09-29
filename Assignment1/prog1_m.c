@@ -13,12 +13,12 @@ int main(){
         break;
       }
       nums[i] += 0.1;
-      r1 = (nums[0] + nums[1]) + nums[2];
-      r2 = nums[0] + (nums[1] + nums[2]);
+      r1 = (nums[0] * nums[1]) * nums[2];
+      r2 = nums[0] * (nums[1] * nums[2]);
 
       if(r1 != r2){
         printf("a = %.14lf\nb = %.14lf\nc = %.14lf\n", nums[0], nums[1], nums[2]);
-        printf("In this case a+b+c is NOT associative\n\n");
+        printf("In this case a*b*c is NOT associative\n\n");
       }
     }
   }
