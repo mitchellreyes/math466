@@ -1,5 +1,5 @@
 CC=/usr/local/gcc-7.1/bin/gcc
-all: lufact multAx
+all: lufact
 
 lufact: lufact.c matrixlib.o
 	$(CC) -fcilkplus -Wall -std=gnu99 -o lufact \
