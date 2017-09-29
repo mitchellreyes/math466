@@ -1,4 +1,4 @@
-CC=/usr/local/gcc-7.1/bin/gcc
+CC=/usr/local/gcc-7.1/bin/gcc -03 -ffast-math
 all: lufact
 
 lufact: lufact.c matrixlib.o
