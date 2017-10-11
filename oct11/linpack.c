@@ -76,11 +76,17 @@ void plusolve(int n, double LU[n][n], double *P[n], double x[n], double b[n]){
 	}
 }
 
-#define N 3
-double A[3][3] = {{1,2,-1}, {2,5,-3}, {-1,2,0}};
-double B[3], X[3] = {1, 2, 3}, XX[3];
-double *P[3];
+#define N 2000
+double A[N][N];
+double B[N], X[N], XX[N];
+double *P[N];
 int main(){
+	for(int i = 0; i < N; i++){
+		for(int j = 0; j < N; j++){
+			A[i][j] = 2.0 * random()/RAND_MAX-1.0;
+		}
+		X[i] = 1;
+	}
 	//printf("A=\n"); matprint(N,N,A);
 	tic();
 	multAx(N, N, A, X, B); //B = AX
@@ -91,5 +97,14 @@ int main(){
 	double t = toc();
 	printf("it took %g seconds!\n", t);
 	//printf("XX=\n"); vecprint(N, XX);
+	double r = 0;
+	for(int i = 0; i < N; i++){
+		double dx = XX[i] - 1;
+		r += dx*dx;
+	}
+	r = sqrt(r);
+	printf("The error is %g.\n", r);
+	printf("Speed of %g double-percision FLOPS.\n", 
+	2.0 * (N / 3.0 + 1) * N * N/t/1e6);
 	return 0;
 }

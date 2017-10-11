@@ -11,3 +11,5 @@ matrixlib.o: matrixlib.c matrixlib.h
 tictoc.o: tictoc.c tictoc.h
 	$(CC) -fcilkplus -std=gnu99 -c tictoc.c
 
+clean:
+	rm *.o linpack
