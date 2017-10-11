@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <cilk/cilk.h>
 #include "matrixlib.h"
 #include "tictoc.h"
 
@@ -48,7 +49,7 @@ void plufact(int n,double A[n][n], double *P[n]){
 				P[j] = t;
 			}
 		}
-		for(int j=i+1;j<n;j++){
+		cilk_for(int j=i+1;j<n;j++){
 			double alpha=P[j][i]/P[i][i];
 			for(int k=i+1;k<n;k++){
 				P[j][k]-=alpha*P[i][k];
@@ -105,6 +106,6 @@ int main(){
 	r = sqrt(r);
 	printf("The error is %g.\n", r);
 	printf("Speed of %g double-percision FLOPS.\n", 
-	2.0 * (N / 3.0 + 1) * N * N/t/1e6);
+	2.0 * (N / 3.0 + 1) * N * N/t/1e6/1000);
 	return 0;
 }
