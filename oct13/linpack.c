@@ -79,7 +79,7 @@ void plusolve(int n, double LU[n][n], double *P[n], double x[n], double b[n]){
 	}
 }
 
-#define N 2000
+#define N 4000
 double A[N][N];
 double B[N], X[N], XX[N];
 double *P[N];
