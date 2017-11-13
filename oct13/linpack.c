@@ -7,79 +7,28 @@
 #include "matrixlib.h"
 #include "tictoc.h"
 
-void lufact(int n,double A[n][n]){
-	for(int i=0;i<n-1;i++){
-		for(int j=i+1;j<n;j++){
-			double alpha=A[j][i]/A[i][i];
-			for(int k=i+1;k<n;k++){
-				A[j][k]-=alpha*A[i][k];
-			}
-			A[j][i]=alpha;
-		}
-	}
-}
-
-void lusolve(int n, double LU[n][n], double x[n], double b[n]){ 
-	double y[n];
-	for(int i = 0; i < n; i++){ //Ly = b
-		y[i] = b[i];
-		for(int j = 0; j < i; j++){
-			y[i] -= LU[i][j]* y[j];
-		}
-	}
-	//Ux = y
-	for(int i = n-1; i >= 0; i--){
-		x[i] = y[i];
-		for(int j = i + 1; j < n; j++){
-			x[i] -= LU[i][j] * x[j];
-		}
-		x[i]/=LU[i][i];
-	}
-}
-
-void plufact(int n,double A[n][n], double *P[n]){
+double vecnorm1(int n, double x[n]){
+	double r = 0;
 	for(int i = 0; i < n; i++){
-		P[i] = &A[i][0];
+		r += fabs(x[i]);
 	}
-	for(int i=0;i<n-1;i++){
-		//switch rows
-		for(int j = i + 1; j < n; j++){
-			if(fabs(P[i][i]) < fabs(P[j][i])){
-				//swap
-				double *t = P[i];
-				P[i] = P[j];
-				P[j] = t;
-			}
-		}
-		cilk_for(int j=i+1;j<n;j++){
-			double alpha=P[j][i]/P[i][i];
-			for(int k=i+1;k<n;k++){
-				P[j][k]-=alpha*P[i][k];
-			}
-			P[j][i]=alpha;
-		}
-	}
+	return r;
 }
 
-void plusolve(int n, double LU[n][n], double *P[n], double x[n], double b[n]){
-	double y[n];
-	for(int i = 0; i < n; i++){ //Ly = b
-		y[i] = b[(P[i] - &LU[0][0])/n];
-		for(int j = 0; j < i; j++){
-			y[i] -= P[i][j]* y[j];
+double matnorm1(int n, double A[n][n]){
+	double r = 0;
+	for(int j = 0; j < n; j++){
+		double s = 0;
+		for(int i = 0; i < n; i++){
+			s += fabs(A[i][j]);
 		}
+		if(s > r) r = s;
 	}
-	//Ux = y
-	for(int i = n-1; i >= 0; i--){
-		x[i] = y[i];
-		for(int j = i + 1; j < n; j++){
-			x[i] -= P[i][j] * x[j];
-		}
-		x[i]/=P[i][i];
-	}
+	return r;
 }
 
-#define N 4000
+
+#define N 2000
 double A[N][N];
 double B[N], X[N], XX[N];
 double *P[N];
@@ -92,6 +41,7 @@ int main(){
 		}
 		X[i] = 1;
 	}
+	printf("|A|_1 = %g\n", matnorm1(N, A));
 	multAx(N, N, A, X, B); //B = AX
 	tic();
 	//plufact(N,A, P); //now A is overwritten with LU
