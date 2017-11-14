@@ -3,27 +3,25 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define size 7
+#define size 3
 
 void multAx(int m,int n, double A[m][n],double X[n],double B[m]);
 double vecnorm2(int n, double x[n]);
 double matnorm2(int n, double A[n][n]);
 double determinant(double A[size][size], float k);
 void cofactor(double num[size][size],float f, double qk);
-void transpose(double num[size][size],
+void invert(double num[size][size],
   double fac[size][size],double r, double qk);
 void matcond2(double A[size][size]);
+void multiply(double A[size][size], double result[size][size]);
+
+//global
+double inverseMatrix[size][size] = {0};
 
 int main(){
-  double A[size][size] = {
-    { -4, -5, -2,  9, -1, -4, -3 },
-    {  7, -3,  5,  9, -1,  1,  0 },
-    { -2,  5, -3,  5,  3, -8,  0 },
-    { -4, -5, -9,  0,  9,  8,  7 },
-    { -3,  7,  8,  2, -8, -3,  2 },
-    {  1,  2,  9, -2,  9,  5, -2 },
-    { -1, -4,  7,  7, -8, -6,  3 }};
-  matcond2(A);
+  double A[size][size] = {{7, 1, 7}, {5, 7, 7}, {3, 7, 8}};
+  double result[size][size] = {0};
+
   return 0;
 }
 
@@ -97,37 +95,48 @@ void cofactor(double num[size][size],float f, double qk){
       fac[q][p]=pow(-1,q + p) * determinant(b,f-1);
     }
   }
-  transpose(num,fac,f, qk);
+  return invert(num,fac,f, qk);
 }
-void transpose(double num[size][size],
+void invert(double num[size][size],
   double fac[size][size],double r, double qk){
-  int i,j;
-  double b[size][size],inverse[size][size],d;
-
-  for (i=0;i<r;i++)
-    {
-     for (j=0;j<r;j++)
-       {
-         b[i][j]=fac[j][i];
-        }
+    int i,j;
+    double b[size][size], d;
+    for(i=0;i<r;i++){
+      for (j=0;j<r;j++){
+        b[i][j]=fac[j][i];
+      }
     }
-  d=determinant(num,r);
-  for (i=0;i<r;i++)
-    {
-     for (j=0;j<r;j++)
-       {
-        inverse[i][j]=b[i][j] / d;
-        }
+    d=determinant(num,r);
+    for (i=0;i<r;i++){
+      for (j=0;j<r;j++){
+        inverseMatrix[i][j]=b[i][j] / d;
+      }
     }
-    double value = matnorm2(size, inverse);
-    printf("||A^-1||2 = %g\n", value);
-   printf("cond(A) = %g\n", qk * value);
+}
+void transpose(double A[size][size], double result[size][size]){
+  int i, j;
+  for(i = 0; i < size; i++){
+    for(j = 0; j < size; j++){
+      result[i][j] = A[j][i];
+    }
+  }
+}
+void multiply(double A[size][size], double result[size][size]){
+  double t[size][size];
+  int i, j, k;
+  transpose(A, t);
+  for(i = 0; i < size; i++){
+    for(j = 0; j < size; j++){
+      result[i][j] = 0;
+      for(k = 0; k < size; k++){
+        result[i][j] += A[i][k]*t[k][j];
+      }
+    }
+  }
 }
 
 void matcond2(double A[size][size]){
-  double qk = matnorm2(size, A);
-  printf("||A||2 = %g\n", qk);
-  cofactor(A, size, qk);
+
 }
 
 
