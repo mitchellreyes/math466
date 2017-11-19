@@ -8,7 +8,7 @@
 void matprint(int m,int n,double A[m][n]){
 	for(int i=0;i<m;i++){
 		for(int j=0;j<n;j++){
-			printf("%-15g\t",A[i][j]);
+			printf("%-15g\t", A[i][j]);
 		}
 		printf("\n");
 	}
@@ -89,6 +89,17 @@ void lufact(int n,double A[n][n]){
 	}
 }
 
+void backsub(int n, double U[n][n], double x[n], double b[n]){
+	//Ux = y
+	for(int i = n-1; i >= 0; i--){
+		x[i] = b[i];
+		for(int j = i + 1; j < n; j++){
+			x[i] -= U[i][j] * x[j];
+		}
+		x[i]/=U[i][i];
+	}
+}
+
 void lusolve(int n, double LU[n][n], double x[n], double b[n]){ 
 	double y[n];
 	for(int i = 0; i < n; i++){ //Ly = b
@@ -97,14 +108,7 @@ void lusolve(int n, double LU[n][n], double x[n], double b[n]){
 			y[i] -= LU[i][j]* y[j];
 		}
 	}
-	//Ux = y
-	for(int i = n-1; i >= 0; i--){
-		x[i] = y[i];
-		for(int j = i + 1; j < n; j++){
-			x[i] -= LU[i][j] * x[j];
-		}
-		x[i]/=LU[i][i];
-	}
+	backsub(n, LU, x, y);
 }
 
 void plufact(int n,double A[n][n], double *P[n]){

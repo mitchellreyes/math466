@@ -86,10 +86,10 @@ int main(){
 	multAx(N, N, A, X, B); //B = AX
 	//printf("B=\n"); vecprint(N, B);
 	plufact(N,A, P); //now A is overwritten with LU
-	//printf("LU=\n"); matprint(N,N,A);
+	printf("LU=\n"); matprint(N,N,A);
 	plusolve(N, A, P, XX, B);
 	double t = toc();
 	printf("it took %g seconds!\n", t);
-	//printf("XX=\n"); vecprint(N, XX);
+	printf("XX=\n"); vecprint(N, XX);
 	return 0;
 }

@@ -8,7 +8,6 @@
 #include<sys/time.h>
 #include <sys/resource.h>
 #include "matrixlib.h"
-#include "tictoc.h"
 
 double dotprod(int n, double x[n], double y[n]){
 	double s = 0.0;
@@ -99,43 +98,46 @@ double Q[m][n], double R[m][n]){
 }
 
 #define N 4
-#define M 6
-double A[M][N], QT[N][M], R[M][N], Q[M][N];
-int main(){
-	//setrlimit(RLIMIT_STACK, 
-	//&(const struct rlimit){RLIM_INFINITY, RLIM_INFINITY});
-	for(int i = 0; i < M; i++){
-		for(int j = 0; j < N; j++){
-			//A[i][j] = 2.0 * random()/RAND_MAX-1.0;
-			A[i][j] = 1.0 / (i+j+1);
-		}
-	}
-	printf("N = %d, M = %d\n", N, M);
-	printf("A = \n"); matprint(M, N, A);
-	householder(M, N, A, Q, R);
-	printf("R = \n"); matprint(N, N, R);
-	printf("Q = \n"); matprint(M, N, Q);
-	double QR[M][N];
-	bzero(QR, sizeof(double)*M*N);
-	for(int i = 0; i < M; i++){
-		for(int j = 0; j < N; j++){
-			for(int k = 0; k < N; k++){
-				QR[i][j] += Q[i][k] * R[k][j];
-			}
-		}
-	}
-	printf("QR = \n"); matprint(M, N, QR);
-	double I1[N][N];
-	bzero(I1, sizeof(double)*N*N);
 
-	for(int i = 0; i < N; i++){
+double phi0(double x){ return 1.0; }
+double phi1(double x){ return x; }
+double phi2(double x){ return x*x; }
+double phi3(double x){ return x*x*x; }
+
+typedef double func(double x);
+func *phi[N] = {phi0, phi1, phi2, phi3};
+
+double phi_easy(double x, int index){
+	return pow(x, index);
+}	
+
+#define N 4
+
+
+int main(){
+	setrlimit(RLIMIT_STACK, 
+	&(const struct rlimit){RLIM_INFINITY, RLIM_INFINITY});
+	int m;
+	//double A[M][N], QT[N][M], R[M][N], Q[M][N];
+	FILE *fp = fopen("file05a.dat", "r");
+	fscanf(fp, "%d", &m);
+	printf("m, N = %d, %d\n", m, N);
+	double X[m], Y[m], A[m][N];
+	for(int i = 0; i < m; i++){
+		fscanf(fp, "%lf %lf", &X[i], &Y[i]);
+	}
+	for(int i = 0; i < m; i++){
+		printf("%lf %lf\n", X[i], Y[i]);
+	}
+	for(int i = 0; i < m; i++){
 		for(int j = 0; j < N; j++){
-			for(int k = 0; k < M; k++){
-				I1[i][j] += Q[k][i] * Q[k][j];
-			}
+			//A[i][j] = phi[j](X[i]);
+			A[i][j] = phi_easy(X[i], j);
 		}
 	}
-	printf("I1 = \n"); matprint(N, N, I1);
+	double R[m][N], Q[m][N];
+	householder(m, N, A, Q, R);
+	printf("R = \n"); matprint(N, N, R);
 	return 0;
 	
 }
