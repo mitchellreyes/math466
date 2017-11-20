@@ -76,9 +76,39 @@ void plusolve(int n, double LU[n][n], double *P[n], double x[n], double b[n]){
 	}
 }
 
+void findInverse(int Z, double D[Z][Z]){
+	double d[3], x, y[3], s[3][3];
+	int n = 2;
+	int m, i, j;
+	//d, x, y, s
+	for(m=0;m<=2;m++){
+		d[0]=0.0;d[1]=0.0;d[2]=0.0;
+		d[m]=1.0;
+		for(i=0;i<=n;i++){
+			x=0.0;
+			for(j=0;j<=i-1;j++){
+				x=x+D[i][j]*y[j];
+			}
+			y[i]=(d[i]-x);
+		}
+
+		for(i=n;i>=0;i--){
+			x=0.0;
+			for(j=i+1;j<=n;j++){
+				x=x+D[i][j]*s[j][m];
+			}
+			s[i][m]=(y[i]-x)/D[i][i];
+		}
+	}
+	printf("The Inverse Matrix\n");
+  for(m=0;m<=2;m++){
+		printf("%lf %lf %lf \n", s[m][0],s[m][1],s[m][2]);
+	}
+}
+
 #define N 3
-double A[3][3] = {{1,2,-1}, {2,5,-3}, {-1,2,0}};
-double B[3], X[3] = {1, 2, 3}, XX[3];
+double A[3][3] = {{3, 0, 2}, {2, 0, -2}, {0, 1, 1}};
+double B[3], X[3] = {1, 2, 3}, XX[3], s[N][N];
 double *P[3];
 int main(){
 	printf("A=\n"); matprint(N,N,A);
@@ -87,6 +117,7 @@ int main(){
 	//printf("B=\n"); vecprint(N, B);
 	plufact(N,A, P); //now A is overwritten with LU
 	printf("LU=\n"); matprint(N,N,A);
+	findInverse(N, A);
 	plusolve(N, A, P, XX, B);
 	double t = toc();
 	printf("it took %g seconds!\n", t);
