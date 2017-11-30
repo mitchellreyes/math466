@@ -103,7 +103,7 @@ void backsub(int n, double U[n][n], double x[n], double b[n]){
 	}
 }
 
-void lusolve(int n, double LU[n][n], double x[n], double b[n]){ 
+void lusolve(int n, double LU[n][n], double x[n], double b[n]){
 	double y[n];
 	for(int i = 0; i < n; i++){ //Ly = b
 		y[i] = b[i];
@@ -297,7 +297,8 @@ double invmatnorm2(int n, double A[n][n]){
   }
   double q = 0, qk;
   for(int k = 1; k < 100*n; k++){
-    multAx(n, n, B, y, yk);
+    //multAx(n, n, B, y, yk);
+		cplusolve(n, B, P, yk, y);
     qk = vecnorm2(n, yk);
     for(int j = 0; j < n; j++){
       y[j] = yk[j] / qk;
@@ -358,4 +359,3 @@ complex shiftinvpower(int n, complex A[n][n], complex alpha){
   //return sqrt(qk);
 	return qk;
 }
-
